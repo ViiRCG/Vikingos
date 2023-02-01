@@ -1,0 +1,114 @@
+body{
+    background-image: url(../assets/images/fondo.jpg);
+    background-size: cover;
+    font-family: Kavoon;
+}
+@font-face {
+    font-family: Kavoon;
+    src: url(../assets/fonts/Kavoon-Regular.ttf);
+}
+/* .web{
+    background-color: rgba(0, 0, 0, 0.388);
+} */
+.encabezado{
+    background-color: rgba(61, 61, 61, 0.466); 
+    border-radius: 10px;
+}
+.navbar__container{
+    width: 100%;
+    height: 100%;
+    
+  /*   padding-left: 300px; */
+}
+
+.navbar__title{
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(97, 10, 10);
+    font-size: 2rem;
+    font-family: Kavoon;
+}
+.navbar__burguer{
+    color: rgb(97, 10, 10);
+}
+.nav__link{
+    font-size: 1.2rem;
+    text-decoration: underline;
+
+}
+.formulario{
+    background-color: rgba(61, 61, 61, 0.466);
+    border-radius: 5px;
+}
+.formulario__text{
+    color: rgb(176, 5, 5);
+}
+
+/*ESTILOS PARA EL CUERPO DE LA PÁGINA PRINCIPAL*/
+
+.cuerpo{
+    background-color: rgba(135, 135, 135, 0.403); 
+    border-radius: 10px;
+    color: black;
+}
+
+/*ESTILOS PARA EL CARUSEL DE IMÁGENES*/
+
+.carusel__text{
+    font-size: 2rem;
+    
+}
+.carusel__title{
+    text-decoration: underline;
+}
+
+.carusel{
+    background-color: rgba(91, 91, 91, 0.158);
+    border-radius: 10px;
+}
+.carusel__item{
+    background-color: #212529;
+    border: 1px solid #212529;
+}
+.carusel__link{
+    background-color: #212529;
+    border: 1px solid #212529;
+
+}
+.carusel__item:hover{
+    background-color: white;
+    color: #212529;
+    border: 1px solid white;
+}
+.carusel__link:hover{
+    background-color: white;
+    color: #212529;
+    border: 1px solid white;
+}
+/*ESTILOS PARA EL FOOTER*/
+.footer{
+    background-color: rgba(91, 91, 91, 0.522);
+    border-radius: 10px;
+}
+.footer__card{
+    background-color: rgba(124, 124, 124, 0.767);
+}
+.footer__title{
+    text-decoration: underline;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+.footer__item{
+    background-color: rgb(124, 124, 124);
+    font-size: 0.85rem;
+    
+}
+.footer__link{
+    color: #212529;
+    text-decoration: none;
+}
+.footer__link:hover{
+    text-decoration: underline;
+    color: #212529;
+}

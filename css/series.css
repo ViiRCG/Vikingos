@@ -1,0 +1,33 @@
+.section{
+    background-color: rgba(124, 124, 124, 0.422);
+    border-radius: 10px;
+}
+.section__tittle{
+    font-size: 2em;
+    text-decoration: underline;
+    color: rgb(127, 18, 18);
+    text-align: center;
+}
+.section__box{
+    background-color: rgba(124, 124, 124, 0.619);
+    border-radius: 10px;
+}
+.section__img{
+    width: 200px;
+    height: 400px;
+}
+
+.aside__table{
+    font-size: 0.85rem;
+}
+
+.galery__containimg{
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    margin: 40px;
+}
+.galery__name{
+
+    font-size: 1.1rem;
+}

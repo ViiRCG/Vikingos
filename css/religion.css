@@ -1,0 +1,14 @@
+
+.section{
+    background-color: rgba(124, 124, 124, 0.422);
+    border-radius: 10px;
+}
+.section__tittle{
+    font-size: 2em;
+    text-decoration: underline;
+    color: rgb(127, 18, 18);
+}
+.section__box{
+    background-color: rgba(124, 124, 124, 0.619);
+    border-radius: 10px;
+}
